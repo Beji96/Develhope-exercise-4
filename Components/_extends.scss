@@ -1,0 +1,11 @@
+%text {
+  padding: 1rem;
+  border: 2px solid red;
+  text-align: center;
+  width: 20%;
+  margin: 1em auto;
+  color: $primaryGreen;
+}
+h2 {
+  @extend %text;
+}
